@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
-* Студент: [Павел Антонов](https://up.htmlacademy.ru/ecmascript-individual/2/user/2447701).
-* Наставник: `Неизвестно`.
+- Студент: [Павел Антонов](https://up.htmlacademy.ru/ecmascript-individual/2/user/2447701).
+- Наставник: [Алексей Хабиров](https://htmlacademy.ru/profile/alex_khab).
 
 ---
 
