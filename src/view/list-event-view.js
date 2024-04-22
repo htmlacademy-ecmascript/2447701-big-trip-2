@@ -21,3 +21,5 @@ export default class NewEventView {
     this.element = null;
   }
 }
+
+//с веткой накасячил уберу коммент не хочет комититься так просто

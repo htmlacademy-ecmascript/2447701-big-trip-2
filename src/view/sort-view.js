@@ -46,3 +46,5 @@ export default class NewSortView {
     this.element = null;
   }
 }
+
+//с веткой накасячил уберу коммент не хочет комититься так просто

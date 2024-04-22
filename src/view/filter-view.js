@@ -48,3 +48,5 @@ export default class NewFilterView {
     this.element = null;
   }
 }
+
+//с веткой накасячил уберу коммент не хочет комититься так просто
