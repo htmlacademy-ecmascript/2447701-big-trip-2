@@ -1,20 +1,11 @@
-import createNewFilterView from './view/filter-view.js';
-import createNewListEventView from './view/list-event-view.js';
-import createNewPointView from './view/point-view.js';
-import createNewSortView from './view/sort-view.js';
-import createNewTrioListView from './view/trip-list-view.js';
+import FilterView from './view/filter-view.js';
+import BoardPresenter from './presenter/board-presenter.js';
 import { render } from './render.js';
 
-const siteMainElement = document.querySelector('.main');
-const siteHeaderElement = siteMainElement.querySelector('.main__control');
+const siteMainElement = document.querySelector('.trip-events');
+const siteFiltersElement = document.querySelector('.trip-controls__filters');
 
-render(
-  new createNewFilterView(),
-  new createNewListEventView(),
-  new createNewPointView(),
-  new createNewSortView(),
-  new createNewTrioListView(),
-  siteHeaderElement
-);
+render(new FilterView(), siteFiltersElement);
+const boardPresenter = new BoardPresenter({ boardContainer: siteMainElement });
 
-//с веткой накасячил уберу коммент не хочет комититься так просто
+boardPresenter.init();

@@ -1,12 +1,12 @@
 import { createElement } from '../render.js';
 
-function createNewListEventView() {
+function createListEventView() {
   return `<ul class="trip-events__list"></ul>`;
 }
 
-export default class NewEventView {
+export default class EventView {
   getTemplate() {
-    return createNewListEventView();
+    return createListEventView();
   }
 
   getElement() {
@@ -21,5 +21,3 @@ export default class NewEventView {
     this.element = null;
   }
 }
-
-//с веткой накасячил уберу коммент не хочет комититься так просто
